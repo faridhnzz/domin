@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+body {
+  background: #fff;
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+}
+h2 {
+  margin-bottom: -5px;
+}
+a,
+body {
+  color: #111;
+}
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin: 60px auto;
+}
+.input {
+  position: relative;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.input button,
+.input input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  background: 0 0;
+  font: inherit;
+  outline: 0;
+}
+.input input {
+  padding: 0;
+  line-height: inherit;
+  background-color: #e4e4e4;
+  width: 100%;
+  padding-right: 100px;
+}
+.input button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  line-height: 40px;
+  background: #2a6fe6;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.domain,
+.results {
+  width: 100%;
+}
+.domain,
+.input input {
+  padding-left: 10px;
+  border-radius: 6px;
+}
+.domain {
+  display: table;
+  line-height: 45px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.domain-taken {
+  background-color: #d23d47;
+  color: #fff;
+  /* font-weight: 500; */
+}
+.domain-free {
+  background: #07c277;
+  color: #fff;
+  /* font-weight: 500; */
+}
+
+/* Media */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 680px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 780px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 880px;
+  }
+}

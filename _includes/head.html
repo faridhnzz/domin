@@ -1,0 +1,20 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="dns-prefetch" href="https://cdn.statically.io" />
+  <link rel="preconnect" href="https://cloudflare-dns.com" />
+  <link rel="icon" type="image/x-icon" href="{{ site.favicon | prepend: site.baseurl }}" />
+  <title>{{ site.title }}</title>
+  {% include robots.html %}
+  <!-- SEO -->
+  {% include seo.html %}
+  <meta name="author" content="{{ site.author }}" />
+  <meta name="copyright" content="{{ site.author }}" />
+  <link rel="manifest" href="{{ site.baseurl }}/manifest.webmanifest" />
+  <link rel="canonical" href="{{ site.url }}" />
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/{% ministamp _assets/css/styles.min.css assets/styles.css %}" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/{% ministamp _assets/css/font.min.css assets/font.css %}" />
+  {% include schema.html %}
+</head>
