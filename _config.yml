@@ -2,19 +2,21 @@
 # {{ site.myvariable }}.
 
 title: Domain Name Search - Periksa ketersediaan domain
+short_title: Domain Name Search
 author: Farid Nizam
 description: >- # this means to ignore newlines until "baseurl:"
   Periksa ketersediaan domain Anda sebelum membeli domain. Cari domain .com, .id dan nama domain top level domain names.
 keywords: >- # this means to ignore newlines
   domain, cari domain, domain search, cek domain, domain saya, nama domain, check domain, domain checker, cara mencari domain
+url: 'https://cekdomain.js.org' # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
 
-# Favicon
+# Favicon, manifest, Meta name for Robots
 favicon: 'favicon.ico'
-# Meta name for Robots
+manifest: 'manifest.webmanifest'
 robots: 'index, follow'
-# Card Image
+theme-color: '#b22ccf'
+# Metadata
 cardImageSeo: https://cdn.statically.io/og/Domain%20Name%20Search.jpg
 
 # Umami.is website analytics
@@ -44,3 +46,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - LICENSE
+  - README.md
+  - netlify.toml
