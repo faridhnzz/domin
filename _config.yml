@@ -47,3 +47,5 @@ exclude:
   - LICENSE
   - README.md
   - netlify.toml
+  - .prettierignore
+  - .gitignore

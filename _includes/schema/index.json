@@ -1,0 +1,1 @@
+{"@context":"https://schema.org","@type":"WebSite","name":"{{ site.title }}","headline":"{{ site.title }}","url":"{{ site.url }}","description":"{{ site.description }}","author":{"@type":"Person","name":"{{ site.author }}"}}

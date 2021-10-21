@@ -1,3 +1,4 @@
+{% include robots.html %}
 <meta name="title" content="{{ site.title }}" />
 <meta name="description" content="{{ site.description }}" />
 <meta name="theme-color" content="{{ site.theme-color }}" />
@@ -6,8 +7,11 @@
 <meta property="og:title" content="{{ site.title }}" />
 <meta property="og:description" content="{{ site.description }}" />
 <meta property="og:image" content="{{ site.cardImageSeo }}" />
-<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:card" content="summary" />
 <meta property="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="twitter:title" content="{{ site.title }}" />
 <meta property="twitter:description" content="{{ site.description }}" />
 <meta property="twitter:image" content="{{ site.cardImageSeo }}" />
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+<link rel="manifest" href="./{{ site.manifest }}" />
