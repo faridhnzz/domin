@@ -19,7 +19,7 @@ cardImageSeo: https://cdn.statically.io/og/Domain%20Name%20Search.jpg
 
 # Umami.is website analytics
 umami_websiteId: 5bde902e-c981-44ec-bbd6-e54d9eefeb67
-umami_srcUrl: https://slowy.onolune.my.id/umami.js
+umami_srcUrl: https://ovra.vercel.app/umami.js
 umami_includeEnvironment: production # development or production
 umami_trackerConfig: 'data-auto-track="true" data-do-not-track="true"' # https://umami.is/docs/tracker-config
 
