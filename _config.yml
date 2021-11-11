@@ -10,7 +10,7 @@ url: 'https://cekdomain.js.org' # the base hostname & protocol for your site, e.
 baseurl: '' # the subpath of your site, e.g. /blog
 
 # CDN
-cdn: https://cekdomain.nomcdn.xyz
+cdn: https://cdn.nomcdn.xyz/cdn?url=cekdomain.js.org
 
 # Favicon, manifest, Meta name for Robots
 favicon: 'favicon.ico'
