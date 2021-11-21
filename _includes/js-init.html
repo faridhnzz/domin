@@ -1,4 +1,4 @@
 <!-- <script src="https://cdn.statically.io/gh/faridnizam/punycode.js/v1.4.1/punycode.min.js"></script> -->
-<script src="{% if site.production %}{{ site.cdn_url }}/{% ministamp _assets/js/punycode.min.js assets/punycode.js %}{% endif %}{% ministamp _assets/js/punycode.min.js assets/punycode.js %}"></script>
-<script src="{% if site.production %}{{ site.cdn_url }}/{% ministamp _assets/js/btn.min.js assets/btn.js %}{% endif %}{% ministamp _assets/js/btn.min.js assets/btn.js %}"></script>
-<script src="{% if site.production %}{{ site.cdn_url }}/{% ministamp _assets/js/domain.min.js assets/domain.js %}{% endif %}{% ministamp _assets/js/domain.min.js assets/domain.js %}"></script>
+<script src="{%- if jekyll.environment == {{site.cdn_includeEnvironment}} -%}{{ site.cdn_url }}/{%- endif -%}{% ministamp _assets/js/punycode.min.js assets/punycode.js %}"></script>
+<script src="{%- if jekyll.environment == {{site.cdn_includeEnvironment}} -%}{{ site.cdn_url }}/{%- endif -%}{% ministamp _assets/js/btn.min.js assets/btn.js %}"></script>
+<script src="{%- if jekyll.environment == {{site.cdn_includeEnvironment}} -%}{{ site.cdn_url }}/{%- endif -%}{% ministamp _assets/js/domain.min.js assets/domain.js %}"></script>
