@@ -13,7 +13,7 @@ baseurl: '' # the subpath of your site, e.g. /blog
 
 # CDN
 cdn_url: https://cdn.nomcdn.xyz/url/cekdomain.js.org
-cdn_includeEnvironment: development
+cdn_includeEnvironment: production
 
 # Favicon, manifest, Meta name for Robots
 favicon: 'favicon.ico'
