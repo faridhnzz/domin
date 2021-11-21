@@ -1,4 +1,5 @@
 (async () => {
+  var TldArray = ['id', 'com', 'net', 'info', 'org', 'biz', 'name', 'co', 'in', 'us'];
   let domains = [];
 
   domainsFetch = await fetch('https://cdn.statically.io/gh/faridnizam/mirror-tld/master/output/tlds-alpha-by-domain.txt');

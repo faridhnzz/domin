@@ -1,15 +1,13 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="dns-prefetch" href="https://cdn.statically.io" />
-  <link rel="preconnect" href="https://cloudflare-dns.com" />
-  <link rel="icon" type="image/x-icon" href="{{ site.url }}/{{ site.favicon }}" />
-  <title>{%if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
-  <meta name="author" content="{{ site.author }}" />
-  <meta name="copyright" content="{{ site.author }}" />
-  {% include seo.html %}
-  <link rel="stylesheet" href="{{ site.cdn }}/{% ministamp _assets/css/styles.min.css assets/styles.css %}" />
-  <link rel="stylesheet" href="{{ site.cdn }}/{% ministamp _assets/css/font.min.css assets/font.css %}" />
-  {% include schema/schema.html %}
-</head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="dns-prefetch" href="https://cdn.statically.io" />
+<link rel="dns-prefetch" href="https://cloudflare-dns.com" />
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="icon" type="image/x-icon" href="{{ site.url }}/{{ site.favicon }}" />
+<title>{%if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
+<meta name="author" content="{{ site.author }}" />
+<meta name="copyright" content="{{ site.author }}" />
+{% include seo/meta.html %}
+<link rel="manifest" href="./{{ site.manifest }}" />
+{% include css-init.html %} {% include schema/schema.html %}

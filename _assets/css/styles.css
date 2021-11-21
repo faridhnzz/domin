@@ -1,11 +1,16 @@
 html {
   box-sizing: border-box;
 }
-*,
-:after,
-:before {
-  box-sizing: inherit;
+
+* {
+  box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   background: #fff;
   font-family: 'Ubuntu';
@@ -13,18 +18,17 @@ body {
   line-height: 1;
   margin: 0;
 }
+
 h2 {
   margin-bottom: -5px;
 }
-a,
-body {
-  color: #111;
-}
+
 .container {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin: 60px auto;
+  width: -webkit-fill-available;
 }
 .input {
   position: relative;
@@ -88,29 +92,99 @@ body {
   /* font-weight: 500; */
 }
 
+.header {
+  /* padding: 0px 15px; */
+  max-width: 1225px;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  margin-right: 50px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+.donate {
+  background: #f8e2e2;
+  color: #515151;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
 /* Media */
+@media (min-width: 320px) {
+  .donate {
+    font-size: 14px;
+  }
+
+  .logo-text {
+    font-size: 19px;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
 }
+
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
+
+  .donate {
+    font-size: 15px;
+  }
+
+  .logo-text {
+    font-size: 23px;
+  }
 }
+
 @media (min-width: 992px) {
   .container {
     max-width: 680px;
   }
+
+  .donate {
+    font-size: 15px;
+  }
+
+  .logo-text {
+    font-size: 23px;
+  }
 }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 780px;
   }
 }
+
 @media (min-width: 1400px) {
   .container {
     max-width: 880px;
+  }
+
+  .donate {
+    font-size: 15px;
+  }
+
+  .logo-text {
+    font-size: 23px;
   }
 }

@@ -4,30 +4,32 @@
 title: Domain Name Search - Periksa ketersediaan domain
 short_title: Domain Name Search
 author: Farid Nizam
-description: >- # this means to ignore newlines until "baseurl:"
-  Periksa ketersediaan domain Anda sebelum membeli domain. Cari domain .com, .id dan nama domain top level.
+description: >- # this means to ignore newlines
+  Cek domain dengan cepat dan akurat. Periksa ketersediaan domain Anda sebelum membeli domain. Cek domain .com, .net, .id dan nama domain top level lainnya.
+keywords: >-
+  cek domain,cek ketersediaan domain,cari nama domain,periksa domain,domain,Periksa ketersediaan domain
 url: 'https://cekdomain.js.org' # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: '' # the subpath of your site, e.g. /blog
 
 # CDN
-cdn: https://cdn.nomcdn.xyz/cdn?url=cekdomain.js.org
+cdn_url: https://cdn.nomcdn.xyz/url/cekdomain.js.org
 
 # Favicon, manifest, Meta name for Robots
 favicon: 'favicon.ico'
 manifest: 'manifest.webmanifest'
 robots: 'index, follow'
 theme-color: '#b22ccf'
-# Metadata
+# Card data
 cardImageSeo: https://cdn.statically.io/og/Domain%20Name%20Search.jpg
 
-# Umami.is website analytics
+# Analytics
 umami_websiteId: 5bde902e-c981-44ec-bbd6-e54d9eefeb67
 umami_srcUrl: https://owl.nomsad.com/umami.js
-umami_includeEnvironment: production # development or production
 umami_trackerConfig: 'data-auto-track="true" data-do-not-track="true"' # https://umami.is/docs/tracker-config
+umami_includeEnvironment: production # development or production
 
 # Google Site Verification
-google_site_verification: _KNDCAEXpqQurf9jCeqoiFWfKcwTvshswIcv818laOc
+google_site_verification: '_KNDCAEXpqQurf9jCeqoiFWfKcwTvshswIcv818laOc'
 
 # Build settings
 # theme: minima
@@ -47,6 +49,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .vscode/
   - LICENSE
   - README.md
   - netlify.toml
