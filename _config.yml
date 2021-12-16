@@ -38,6 +38,8 @@ plugins:
   - jekyll-sitemap
   - jekyll/minibundle
 
+include: ['.well-known']
+
 # Exclude
 exclude:
   - .sass-cache/

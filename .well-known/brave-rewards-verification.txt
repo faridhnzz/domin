@@ -1,0 +1,9 @@
+---
+layout: none
+permalink: .well-known/brave-payments-verification.txt
+---
+
+This is a Brave Rewards publisher verification file.
+
+Domain: cekdomain.js.org
+Token: ce83b0a9a0c153ee1d3afc0dd8c5639b3194b6458a4c0e03663e202470d94370
