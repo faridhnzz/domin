@@ -2,4 +2,7 @@
 layout: none
 ---
 User-agent: *
+Allow: /
+Disallow: /.well-known
+
 Sitemap: {{ site.url }}/sitemap.xml
