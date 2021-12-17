@@ -3,9 +3,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="dns-prefetch" href="//cdn.statically.io" />
 <link rel="dns-prefetch" href="//cloudflare-dns.com" />
-<link rel="dns-prefetch" href="//cdn.nomcdn.xyz" />
+<link rel="dns-prefetch" href="//cdn.nomcdn.com" />
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-<link rel="icon" type="image/x-icon" href="{{ site.url }}/{{ site.favicon }}" />
+<link rel="icon" type="image/x-icon" href="{%- if jekyll.environment == {{site.cdn_includeEnvironment}} -%}{{ site.cdn_url }}/{%- endif -%}/{{ site.favicon }}" />
 <title>{%if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
 <meta name="author" content="{{ site.author }}" />
 <meta name="copyright" content="{{ site.author }}" />
