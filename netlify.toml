@@ -1,5 +1,5 @@
 [[redirects]]
   from = "https://cekdomain.netlify.app/*"
   to = "https://cekdomain.js.org"
-  status = 301
+  status = 302
   force = true

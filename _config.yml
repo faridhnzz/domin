@@ -13,7 +13,7 @@ baseurl: '' # the subpath of your site, e.g. /blog
 
 # CDN
 cdn_url: https://cdn.nomcdn.com/url/cekdomain.js.org
-cdn_includeEnvironment: production
+cdn_includeEnvironment: development
 
 # Favicon, manifest, Meta name for Robots
 favicon: 'favicon.ico'
@@ -24,10 +24,10 @@ theme-color: '#b22ccf'
 cardImageSeo: https://cdn.statically.io/og/Domain%20Name%20Search.jpg
 
 # Analytics
-umami_websiteId: 5bde902e-c981-44ec-bbd6-e54d9eefeb67
-umami_srcUrl: https://owl.nomsad.com/umami.js
+umami_websiteId: #
+umami_srcUrl: #
 umami_trackerConfig: 'data-auto-track="true" data-do-not-track="true"' # https://umami.is/docs/tracker-config
-umami_includeEnvironment: production # development or production
+umami_includeEnvironment: development # development or production
 
 # Google Site Verification
 google_site_verification: '_KNDCAEXpqQurf9jCeqoiFWfKcwTvshswIcv818laOc'
